@@ -1,0 +1,6 @@
+Its microblogging interfaced with xmpp. Useful for storming sessions.
+
+Please refer the source code for more details.
+
+Similar Projects
+- https://github.com/hj91/Using-XMPP-to-post-content-on-blog-sms-facebook/blob/master/xmpp_to_wordpress.py
