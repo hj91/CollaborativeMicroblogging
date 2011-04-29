@@ -20,6 +20,8 @@ import sys
 import time
 import xmpp
 import codecs
+import json, urllib2
+from urllib import urlencode
 
 
 user='you@gmail.com'
@@ -27,8 +29,6 @@ passwd='gmailpasswd'
 server='gmail.com'
 
 
-import json, urllib2
-from urllib import urlencode
 
 # some stuff to identify yourself against the server
 # and the base API path
