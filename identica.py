@@ -37,7 +37,7 @@ class IdentiCa:
 				del(b)
 			else:
 				if (msg.lower() == 'friends'):
-					a=urllib2.urlopen('http://identi.ca/api/statusnet/app/subscriptions/32987.atom')
+					a=urllib2.urlopen('http://identi.ca/api/statusnet/app/subscriptions/32987.atom') #this is your atom file..need to find a better way for getting feeds...
 					b=feedparser.parse(a)
 					c=[]
 					print 'The list of your friends is'				
