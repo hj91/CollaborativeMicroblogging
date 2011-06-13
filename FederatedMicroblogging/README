@@ -1,2 +1,8 @@
 This is example of federated Microblogging where multiple users can post their status to one single account using xmpp(gtalk)..
 
+And also is an example of CLI appliction used to handle identi.ca without using web brower
+
+ToD0
+- Heavy refactoring needed for CLI app
+
+
