@@ -4,6 +4,7 @@ Please refer the source code for more details.
 
 ToDo
 - Tweepy documentation is very skimpy..should go through it thoroughly and see what methods are defined to get replies, check timeline etc..then interface it with xmpp
+- Identica code needs heavy refactoring...!
 
 Similar Projects
 - https://github.com/hj91/Using-XMPP-to-post-content-on-blog-sms-facebook/blob/master/xmpp_to_wordpress.py
