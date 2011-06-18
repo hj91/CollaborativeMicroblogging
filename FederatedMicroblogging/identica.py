@@ -46,10 +46,10 @@ class IdentiCa:
 			sys.exit(0)
 		else:
 			if (msg.lower() == 'mentions'):
-				url("http://identi.ca/index.php/api/statuses/mentions/hj91.rss")
+				url("http://identi.ca/index.php/api/statuses/mentions/"+self.user+".rss")
 			else:
 				if (msg.lower() == 'home'):
-					url("http://identi.ca/api/statuses/friends_timeline/hj91.rss")
+					url("http://identi.ca/api/statuses/friends_timeline/"+self.user+".rss")
 				else:
 					if (msg.lower() == 'friends'):
 						url2('http://identi.ca/api/statusnet/app/subscriptions/32987.atom')
