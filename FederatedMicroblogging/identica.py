@@ -14,16 +14,16 @@ def url(a):
 	b=feedparser.parse(n)
 	for i in range(len(b.entries)):
 	       	print b.entries[i].title
-	del(n)
-	del(b)
+	#del(n)
+	#del(b)
 	
 def url2(a):
 	n=urllib2.urlopen(a)
 	b=feedparser.parse(n)
 	for entry in b.entries:
 		print entry.title, entry.id
-	del(n)
-	del(b)
+	#del(n)
+	#del(b)
 
 class IdentiCa:
 	def __init__(self,user,pwd,apibase):
